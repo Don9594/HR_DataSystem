@@ -12,5 +12,5 @@ class Entry: Identifiable,Decodable{
     var Name:String
     var Address:String
     var Company:String
-    var numYears:String
+    var numYears:Int
 }

@@ -3,18 +3,18 @@
     "Name":"Don Wijesinghe",
     "Address":"Elm Street",
     "Company":"Ceo, WDonVentures",
-    "Years of Experience":"1 Year"
+    "numYears":1
     },
     {
     "Name":"Don Chavex",
     "Address":"wElm Street",
     "Company":"Teacher",
-    "Years of Experience":"6 Year"
+    "numYears":6
     },
     {
     "Name":"Don Wijesinghe",
     "Address":"Elm Street",
-    "Company":"Ceo, WDonVentures",
-    "Years of Experience":"1 Year"
+    "Company":"Scientist",
+    "numYears":1
     }
 ]

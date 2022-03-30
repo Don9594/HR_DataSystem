@@ -10,6 +10,10 @@ import Foundation
 
 class EntryModel:ObservableObject{
     @Published var entries = [Entry]()
+    @Published var showName = true
+    @Published var showAddress = true
+    @Published var showCompany = true
+    @Published var showNumYears = true
     
     init() {
         entries.self = DataService.getData()

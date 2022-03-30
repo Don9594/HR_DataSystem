@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B09BE97727F3D20100F2F1E6 /* PeopleDirectoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09BE97627F3D20100F2F1E6 /* PeopleDirectoryApp.swift */; };
-		B09BE97927F3D20100F2F1E6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09BE97827F3D20100F2F1E6 /* DetailView.swift */; };
+		B09BE97927F3D20100F2F1E6 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09BE97827F3D20100F2F1E6 /* ToggleView.swift */; };
 		B09BE97B27F3D20300F2F1E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09BE97A27F3D20300F2F1E6 /* Assets.xcassets */; };
 		B09BE97E27F3D20300F2F1E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09BE97D27F3D20300F2F1E6 /* Preview Assets.xcassets */; };
 		B09BE98927F3D2AC00F2F1E6 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09BE98827F3D2AC00F2F1E6 /* Entry.swift */; };
-		B09BE98B27F3D30400F2F1E6 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09BE98A27F3D30400F2F1E6 /* TabView.swift */; };
+		B09BE98B27F3D30400F2F1E6 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09BE98A27F3D30400F2F1E6 /* AppTabView.swift */; };
 		B09BE98D27F3D32100F2F1E6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09BE98C27F3D32100F2F1E6 /* ListView.swift */; };
 		B09BE99127F3D50D00F2F1E6 /* EntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09BE99027F3D50D00F2F1E6 /* EntryModel.swift */; };
 		B09BE99327F3D62700F2F1E6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09BE99227F3D62700F2F1E6 /* DataService.swift */; };
@@ -22,12 +22,12 @@
 /* Begin PBXFileReference section */
 		B09BE97327F3D20100F2F1E6 /* PeopleDirectory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleDirectory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09BE97627F3D20100F2F1E6 /* PeopleDirectoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleDirectoryApp.swift; sourceTree = "<group>"; };
-		B09BE97827F3D20100F2F1E6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B09BE97827F3D20100F2F1E6 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		B09BE97A27F3D20300F2F1E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B09BE97D27F3D20300F2F1E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B09BE97F27F3D20300F2F1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B09BE98827F3D2AC00F2F1E6 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
-		B09BE98A27F3D30400F2F1E6 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		B09BE98A27F3D30400F2F1E6 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
 		B09BE98C27F3D32100F2F1E6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		B09BE99027F3D50D00F2F1E6 /* EntryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryModel.swift; sourceTree = "<group>"; };
 		B09BE99227F3D62700F2F1E6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 		B09BE98527F3D26500F2F1E6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B09BE97827F3D20100F2F1E6 /* DetailView.swift */,
-				B09BE98A27F3D30400F2F1E6 /* TabView.swift */,
+				B09BE97827F3D20100F2F1E6 /* ToggleView.swift */,
+				B09BE98A27F3D30400F2F1E6 /* AppTabView.swift */,
 				B09BE98C27F3D32100F2F1E6 /* ListView.swift */,
 			);
 			path = Views;
@@ -200,9 +200,9 @@
 				B09BE99127F3D50D00F2F1E6 /* EntryModel.swift in Sources */,
 				B09BE99327F3D62700F2F1E6 /* DataService.swift in Sources */,
 				B09BE98927F3D2AC00F2F1E6 /* Entry.swift in Sources */,
-				B09BE97927F3D20100F2F1E6 /* DetailView.swift in Sources */,
+				B09BE97927F3D20100F2F1E6 /* ToggleView.swift in Sources */,
 				B09BE98D27F3D32100F2F1E6 /* ListView.swift in Sources */,
-				B09BE98B27F3D30400F2F1E6 /* TabView.swift in Sources */,
+				B09BE98B27F3D30400F2F1E6 /* AppTabView.swift in Sources */,
 				B09BE97727F3D20100F2F1E6 /* PeopleDirectoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
